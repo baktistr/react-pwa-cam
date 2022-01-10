@@ -4,12 +4,12 @@ import { NavLink } from 'react-router-dom';
 const Navigation = props => {
   return (
     <ul className="navigation">
-      <li><NavLink to="/" exact>Home</NavLink></li>
+      {/* <li><NavLink to="/" exact>Home</NavLink></li>
       <li><NavLink to="/default-camera-input">Default Camera Input</NavLink></li>
       <li><NavLink to="/media-recorder-capture">MediaRecorder Capture</NavLink></li>
       <li><NavLink to="/sandbox">Sandbox</NavLink></li>
       <li><NavLink to="/vad-time-slicing">VAD Time Slicing</NavLink></li>
-      <li><NavLink to="/convert-vad-data">Convert VAD Data</NavLink></li>
+      <li><NavLink to="/convert-vad-data">Convert VAD Data</NavLink></li> */}
     </ul>
   )
 }
